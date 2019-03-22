@@ -1,3 +1,13 @@
+.btn {
+  padding: 10px 70px;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: inline-block;
+  background-color: #17A2B8;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -215,6 +225,19 @@ a {
 .home .content-section .img-content img {
   border-radius: 10px;
 }
+@media only screen and (max-width: 500px) {
+  .home .content-section {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+  }
+}
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
@@ -227,12 +250,38 @@ a {
   padding-right: 1%;
   padding-left: 0;
 }
+@media only screen and (max-width: 500px) {
+  .home .inverse-content {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+  }
+}
 .home .content-destination {
   width: 75%;
   margin: 0 auto 30px;
 }
 .home .content-destination img {
   border-radius: 10px;
+}
+@media only screen and (max-width: 500px) {
+  .home .content-destination {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+  }
 }
 .home .content-pick {
   padding-top: 30px;
@@ -243,4 +292,17 @@ a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media only screen and (max-width: 500px) {
+  .home .content-pick {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+  }
 }
